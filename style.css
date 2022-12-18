@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+hr{
+    margin: 0%;
+}
+
+body{ 
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    padding-top:2vw ;
+    padding-bottom: 2vw;
+    background-color: #f5f8fa;
+}
+
+div.left {
+    padding-top: 1vh;
+    font-size: large;
+    color: aliceblue;
+    text-align: left;
+    display: inline-block;
+}
+
+
+
+footer{
+    border: none;
+    padding: 0%;
+    height: 50vh;
+    background-color: #20409a;
+}
+
+table{
+    border: none;
+    margin: 0;
+    padding: 0%;
+    border-spacing: 0;
+    text-align: center;
+}
+
+.right {
+    padding-left: 1vw;
+}
+
+.logo{
+    padding-left: 5vw;
+    margin-top: 2vh;
+}
+
+.icon{
+    padding: 1vw;
+    width: 55px;
+    height: 50px;
+    filter: invert(100%);
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.center{
+    padding: 1vw;
+}
+
+.centericon{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    filter: invert(100%);
+}
+
+ .body-map__muscle path:hover{   
+    fill: crimson;
+} 
+
+.heading{
+    color: #20409a;
+    padding: 5vw;
+    background-color: #f5f8fa;
+}
+.heading h1{
+    margin: 0;
+}
+
+.subHeading{
+    color: #20409a;
+    padding-left: 5vw;
+}
+
+
+.heading img{
+    width: 42vw;
+    padding: 1vw;
+}
+
+.heading ol{
+    list-style: none;
+    counter-reset: steps;
+}
+
+.heading li{
+    background-color: #e9e9e8;
+    counter-increment: steps;
+    padding: 0.5em;
+    font-size: large;
+    border-style: outset ;
+    margin: 0.5em;
+    position: relative;
+    padding-left: 1vw;
+}
+
+.heading ol li::before{
+    content: counter(steps);
+    border-radius: 500px;
+   background: #20409a;
+   position: absolute;
+   width: 50px;
+   height: 50px;
+   color: white;
+   text-align: center;
+   left: -45px;
+   line-height: 45px;
+   transform: translateY(-10px);
+   box-shadow: 0 0 3px rgb(0 0 0 / 40%), 
+   0 0 0 5px #f5f8fa, 5px 0 2px rgb(0 0 0 / 60%);
+}
+
+
+table{
+    box-align: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+
+
