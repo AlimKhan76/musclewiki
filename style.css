@@ -6,8 +6,8 @@ hr{
 
 body{ 
     font-family: 'Poppins', sans-serif;
-    margin: 0%;
-    padding: 0%;
+    /* margin: 0%;
+    padding: 0%; */
 }
 
 .container{
@@ -25,36 +25,60 @@ div.left {
 }
 
 
+.footer{
+    background-color: #20409a;
 
+}
 footer{
     border: none;
-    padding: 0%;
+    
     height: 50vh;
-    background-color: #20409a;
+    background-color: #20409a;  
 }
 
-table{
+/* table{
     border: none;
     margin: 0;
     padding: 0%;
     border-spacing: 0;
     text-align: center;
-}
+} */
 
-.right {
+/* .right {
     padding-left: 1vw;
-}
+}*/
 
 .logo{
+    width: 20%;
     padding-left: 5vw;
     margin-top: 2vh;
+    height: auto;
+} 
+
+@media screen and (max-width:600px) {
+    .logo{
+        width: 50%;
+        padding-left: 5vw;
+        margin-top: 2vh;
+        height: auto;
+    } 
+    
 }
 
 .icon{
-    padding: 1vw;
-    width: 55px;
-    height: 50px;
+    width: 80%;
+    height: auto;
     filter: invert(100%);
+}
+
+@media screen and (max-width: 600px) {
+.icon{
+    width: 60%;
+    height: auto;
+    filter: invert(100%);
+
+
+}
 }
 
 a{
@@ -63,15 +87,23 @@ a{
     color: white;
 }
 
-.center{
+/* .center{
     padding: 1vw;
-}
+} */
 
 .centericon{
-    width: 60px;
-    height: 60px;
+     width: 20%;
+    height: auto; 
     background-color: transparent;
     filter: invert(100%);
+}
+@media screen and (max-width: 600px) {
+.centericon{
+    width: 15%;
+    height: auto; 
+    background-color: transparent;
+    filter: invert(100%);
+}
 }
 
  .body-map__muscle path:hover{   
@@ -130,12 +162,12 @@ a{
    0 0 0 5px #f5f8fa, 5px 0 2px rgb(0 0 0 / 60%);
 }
 
-
+/* 
 table{
     box-align: center;
     width: 100vw;
     height: 50vh;
-}
+} */
 
 
 
